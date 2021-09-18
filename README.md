@@ -23,3 +23,9 @@ Since this is also a learning experience on PCB design instead of tags I'll be m
 ## Usage
 
 This is essentially a voltage divider circuit.  The effective reduction is based on the ratio of the two resistor values chosen along with the devices being used for the output and input.  In trial circuits this was 42ohm for `R1` and `R2` and 420ohm for `R3` and `R4`.  This should yield a 10:1 ratio reduction in power which corresponds to 20 db reduction in audio.  When testing with white noise output from computer and in to a tascam dr-07x receiver it showed about a 30 db reduction.  Which would be fine in my case where the tascam only records at mic level input and I need it to handle line level input from a DJ mixer which is commonly being driven to +10db or more.
+
+## Changelog
+
+### 1 - 2021-09-05
+
+- Initial design
